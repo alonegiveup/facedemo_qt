@@ -3,7 +3,10 @@
 
 一、环境部署
  目前本人测试环境为Ubuntu14.04 其它系统暂未进行测试，若出现任何问题，可与我联系并进行bug修复。
- opencv安装： sudo apt-get install libcv-dev
+ (1)opencv安装： 
+      sudo apt-get install libcv-dev
+ (2)摄像头测试：
+    由于很多朋友，使用的虚拟机，可能出现读取不到摄像头的情况。为了确保摄像头可用，您可以使用  cheese  命令测试摄像头。
  
 二、执行FaceDemo_all程序即可
   ./FaceDemo_all
